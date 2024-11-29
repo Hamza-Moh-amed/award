@@ -6,6 +6,7 @@ const AnimatedTitle = ({
   containerClass,
 }: {
   title: string;
+  sectionId?: string;
   containerClass?: string;
 }) => {
   const containerRef = useRef(null);
