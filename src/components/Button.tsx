@@ -6,7 +6,7 @@ const Button = ({
   containerClass,
   rightIcon,
 }: {
-  id: string;
+  id?: string;
   title: string;
   leftIcon?: JSX.Element;
   containerClass?: string;
