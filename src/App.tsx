@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
+      <Footer />
     </main>
   );
 };
